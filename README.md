@@ -12,11 +12,11 @@ A lightweight, browser-based password generator built with HTML, CSS, and JavaSc
 - Click-to-copy functionality
 - Clean, responsive design
 
-## 🔗 Live Demo
+## Live Demo
 
 [Try it here](https://password-gen-web-three.vercel.app/)  
 
-## 🛠️ Built With
+## Built With
 
 - HTML5  
 - CSS3  
