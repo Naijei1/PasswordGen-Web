@@ -1,0 +1,145 @@
+body {
+    margin: 115px auto 0px auto;
+    display: block;
+    width: 550px;
+    background-color: #111827;
+}
+
+#app{
+    background-color: #1F2937;
+    padding: 25px;
+    margin-bottom: 118px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #072d44;
+}
+
+#hero{
+    padding-bottom: 35px;
+    border-bottom: solid #2F3E53 1px;
+    width: 446px;
+}
+
+#title{
+    color: #fffdfa;
+    margin: 0px;
+    width: 354px;
+    font-size: 40px;
+    font-family: Karla, sans-serif;
+    font-weight: 750;
+    line-height: 40px;
+    text-shadow: 0px 0px 10px #111827;
+}
+
+#discription{
+    color: #D5D4D8;
+    padding-top: 7px;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    font-weight: 250;
+    line-height: 28px;
+    margin: 0px;
+    letter-spacing: 0px;
+    width: 446px;
+    text-shadow: 0px 0px 10px #131927;
+}
+
+#input {
+    background-color: #273549;
+    border: none;
+    border-radius: 4px;
+    color: #D5D4D8;
+    width: 30px;
+}
+
+#input::-webkit-outer-spin-button,
+#input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn{
+    background-color: #10B981;
+    border: none;
+    padding: 9px 16px;
+    color: #fffdfa;
+    border-radius: 6px;
+    margin-top: 51px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-shadow: 0px 0px 10px #131927;
+    transition-duration: 0.2s;
+}
+
+.btn:hover{
+    scale: 1.1;
+    transition-duration: 0.2s;
+}
+
+.btn:active{
+    background-color: #059669;
+}
+
+.green-text{
+    color: #55F991;
+}
+
+#password-container{
+    display: flex;
+    width: 446px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.password{
+    background-color: #273549;
+    width: 180px;
+    text-align: center;
+    padding: 7px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0px 0px 5px 0px;
+    overflow: auto;
+    transition-duration: 0.2s;
+}
+
+.password:hover{
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+
+#tooltip {
+    color: red;
+    position: absolute;
+    visibility: hidden;
+    width: 120px;
+    background-color: #273549;
+    color: #10B981;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    left: 20%;
+    cursor: pointer;
+}
+
+#tooltip2 {
+    color: red;
+    position: absolute;
+    visibility: hidden;
+    width: 120px;
+    background-color: #273549;
+    color: #10B981;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    left: 50%;
+    cursor: pointer;
+}
+
+#tooltip-hover1:hover #tooltip{
+    visibility: visible;
+}
+
+#tooltip-hover2:hover #tooltip2{
+    visibility: visible;
+}
