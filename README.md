@@ -2,7 +2,7 @@
 
 A lightweight, browser-based password generator built with HTML, CSS, and JavaScript. This tool allows users to generate secure, random passwords based on a custom length, and easily copy them to the clipboard.
 
-![Screenshot](./images/screenshot.png)
+![Screenshot](https://github.com/Naijei1/PasswordGen-Web/blob/main/PassGen.png)
 
 ## Features
 
@@ -14,7 +14,7 @@ A lightweight, browser-based password generator built with HTML, CSS, and JavaSc
 
 ## 🔗 Live Demo
 
-[Try it here](https://your-username.github.io/password-generator)  
+[Try it here](https://password-gen-web-three.vercel.app/)  
 
 ## 🛠️ Built With
 
